@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="text/javascript">
+    !function(win, doc, tag) {
+        let searchParams = (new URLSearchParams(window.location.search)).get('f')
+        let subs = window.location.search.match(/(\&|\?)sub(3|5)=\w+/gm)
+        const F = searchParams ? searchParams : 'UY-D-tImagV';
+        subs = subs ? subs.toString().split(',').join('').replace('?','&') : ''
+        window.mbp = { f: F, b: '{clickid}', k: '{subid}' }
+        let el_tag = doc.createElement(tag)
+        el_tag.async = 1;
+        el_tag.src = 'https://endpointfor5.pro/event/js?v=' + mbp.f + subs;
+        let bd = doc.getElementsByTagName(tag)[0]
+        bd.parentNode.append(el_tag);
+    } (window, document, "script");
+</script>
+
+    <!-- Google tag script -->
+    <!-- Facebook Pixel script -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Vi känner till orsaken till din död.</title>
+    <link href="css/app.bb384b87.css" rel="preload" as="style" />
+    <link href="js/app.b7e8744b.js" rel="preload" as="script" />
+    <link href="js/chunk-vendors.203da515.js" rel="preload" as="script" />
+    <link href="css/app.bb384b87.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Google tag iframe -->
+    <!-- Facebook Pixel image -->
+    <div id="app"></div>
+    <script type="text/javascript" src="js/chunk-vendors.203da515.js"></script>
+    <script type="text/javascript" src="js/app.b7e8744b.js"></script>
+  </body>
+</html>
